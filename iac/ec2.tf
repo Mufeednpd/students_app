@@ -12,7 +12,7 @@ resource "aws_instance" "ec2" {
   vpc_security_group_ids= [aws_security_group.myapp_sg.id]
   tags = {
 
-    Name = "application-srv"
+    Name = "application-srv01"
   }
 
 }
